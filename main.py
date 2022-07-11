@@ -51,7 +51,7 @@ def set_surl(date, snum):
 
 
 def file_write(number, date, num, title, purl, surl):
-    line = number + " | " + date + " | [백준 " + num + ' - ' + title + "](" + purl + ") | [답안](" + surl + "\n"
+    line = number + " | " + date + " | [백준 " + num + ' - ' + title + "](" + purl + ") | [답안](" + surl + ")\n"
     with open("README.md", 'a', encoding="utf8") as f:
         f.write(line)
 
